@@ -1,3 +1,6 @@
+AllCops:
+  TargetRubyVersion: 2.3
+
 Metrics/LineLength:
   Max: 100
 
@@ -9,3 +12,54 @@ Lint/LiteralInCondition:
 
 Style/CommandLiteral:
   EnforcedStyle: mixed
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+ModuleFunction:
+  Enabled: false
+
+ClassLength:
+  Enabled: false
+
+MethodLength:
+  Enabled: false
+
+LineLength:
+  Max: 120
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/StringLiterals:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/SpaceInsideBrackets:
+  Enabled: false
+
+Style/TrivialAccessors:
+  Enabled: false
+
+Style/IfInsideElse:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Enabled: false
